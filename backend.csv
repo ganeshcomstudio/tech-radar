@@ -1,53 +1,26 @@
-"name","ring","quadrant","isNew","description"
-"PostgresSQL","adopt","Datastore","false","Relational database for our backend services"
-"MongoDB","adopt","Datastore","false","Document database for our backend services"
-"AWS DynamoDB","adopt","Datastore","false","NoSQL database for our backend services, if for whatever reason you need to deploy stuff in AWS"
-"Elasticsearch","adopt","Datastore","false","Search database for our backend services"
-"Redis","adopt","Datastore","false","In memory datastore for our backend services"
-"Memcached","adopt","Datastore","true","Multicore memory database"
-"Kafka","adopt","Datastore","false","A distributed event store and stream-processing platform for our backend services"
-"GCP Memory Store Redis","adopt","Datastore","false","In memory service for Redis and Memcached datastore for our backend services"
-"GCP Memory Store Memcached","adopt","Datastore","false","In memory service for Redis and Memcached datastore for our backend services"
-"ArangoDB","trial","Datastore","false","Timeseries database for our backend services"
-"Solr","trial","Datastore","false","An enterprise-search platform and datastore for our backend services"
-"Redis Enterprise","assess","Datastore","true","In memory/cluster datastore for our backend services"
-"RabbitMQ","hold","Datastore","false","An open-source message-broker for our backend services"
-"Java 11","adopt","Languages and Frameworks","false","Java is our main programming language for backend"
-"Spring Boot 2.x","adopt","Languages and Frameworks","false","Spring Boot is our main framework for backend"
-"Kotlin","adopt","Languages and Frameworks","true","A modern programming language that makes developers happier"
-"Java 17","assess","Languages and Frameworks","true","Java 17 is latest LTS for Java, we still assess this version"
-"Go-Lang","hold","Languages and Frameworks","false","We use Go-Lang only for specified case, for new project please use Java"
-"Java 8","hold","Languages and Frameworks","false","Java 8 is already EOL, please use Java 11 for new backend project"
-"Scala","hold","Languages and Frameworks","false","Learning scala is really hard, we already try it, and we will not continue to use Scala, please use Java"
-"Spring Boot 1.x","hold","Languages and Frameworks","false","Spring Boot is our main framework for backend"
-"X Framework","hold","Languages and Frameworks","false","X-Framework is our old framework, we will not use it anymore, please use Spring Boot"
-"Play Framework","hold","Languages and Frameworks","false","Because we are not using Scala anymore, so we also will not using Play Framework anymore"
-"Blibli Data Migration","adopt","Library","false","<a href='https://github.com/bliblidotcom/data-migration'>Blibli Data Migration</a> is our main library for create database migration, it support PostgreSQL, MongoDB and Elasticsearch"
-"Logback","adopt","Library","false","Logback is our main logging library"
-"Lombok","adopt","Library","false","Lombok is library for generate data class for Java"
-"Spring Cloud Gateway","adopt","Library","true","Spring Cloud Gateway is main library for create API Gateway in Spring Boot"
-"Jackson","adopt","Library","false","Jackson is our main library for JSON manipulation"
-"Project Reactor","adopt","Library","false","Project Reactor is main reactive library for Spring Boot"
-"Resilience4J","assess","Library","false","Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix"
-"MapStruct","assess","Library","false","We still assess this library for object mapper, so we don't need to use Java Reflection anymore"
-"Mongobee","hold","Library","false","Mongobee is data migratin for MongoDB, we are not using this anymore, please use Blibli Data Migration"
-"Mongock","hold","Library","false","Mongock is data migratin for MongoDB, we are not using this anymore, please use Blibli Data Migration"
-"Flyway","hold","Library","false","Flyway is data migratin for Relational DB, we are not using this anymore, please use Blibli Data Migration"
-"Log4J","hold","Library","false","We are not using log4j for logging, please use logback"
-"Zuul","hold","Library","false","Zuul is API Gateway library, for new project please use Spring Cloud Gateway"
-"Gson","hold","Library","false","We are not using Gson anymore, please use Jackson for JSON manipulation"
-"Dozer","hold","Library","false","The project is currently not active and will more than likely be deprecated in the future. If you are looking to use Dozer on a greenfield project, we would discourage that. If you have been using Dozer for a while, we would suggest you start to think about migrating onto another library"
-"Orika","hold","Library","false","Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another. It can be very useful when developing multi-layered applications."
-"Guava/Caffeine/Ignite","hold","Library","false","We are not using in-process/in-pod/in-vm cache anymore such as Guava/Caffeine/Ignite, please use distributed cache such as Redis or Memcached"
-"Histryx","hold","Library","false","Histryx is already EOL, please dont use it anymore for new project"
-"Feign","hold","Library","false","Histryx is already EOL, Feign use Histryx, please don't use it anymore for new project"
-"RxJava","hold","Library","false","For new project, please use Project Reactor"
-"Apache Maven","adopt","Tool & Platform","false","Apache Maven is our main build tool for backend"
-"Consul","adopt","Tool & Platform","false","We use Consul to store application configuration"
-"Vault","adopt","Tool & Platform","false","We use Vault to store secret configuration for application"
-"Docker","adopt","Tool & Platform","false","We build our backend application as Docker image"
-"Kubernetes","adopt","Tool & Platform","false","We use Kubernetes for container orchestration tool"
-"Netty","adopt","Tool & Platform","false","Netty is our main web server for new backend"
-"Jenkins","adopt","Tool & Platform","false","Jenkins is our main automation server for CI/CD"
-"Bamboo","hold","Tool & Platform","false","For new project, please use Jenkins as automation server"
-"Apache Tomcat","hold","Tool & Platform","false","For new project please use Netty"
+name,ring,quadrant,isNew,description
+PostgresSQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
+Redis,ADOPT,Datastore,FALSE,In memory datastore for our backend services.
+Kafka,ASSESS ,Datastore,FALSE,A distributed event store and stream-processing platform for our backend services.
+Java 11,ADOPT,Languages and Frameworks,FALSE,Java 11 is one of our main programming language for backend.
+Kotlin,ADOPT,Languages and Frameworks,FALSE,A modern programming language that makes developers happier.
+Java 8,ADOPT,Languages and Frameworks,FALSE,Java 8 is one of our main programming language for backend.
+Gson,ADOPT,Library,FALSE,"We are not using Gson anymore, please use Jackson for JSON manipulation."
+RxJava,ADOPT,Library,FALSE,"For new project, please use Project Reactor."
+Docker,ADOPT,Tool & Platform,FALSE,We build our backend application as Docker image.
+Jenkins,ADOPT,Tool & Platform,FALSE,Jenkins is our main automation server for CI/CD.
+MySQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
+SQL Server,ADOPT,Datastore,FALSE,Relational database for our backend services.
+MariaDB,ADOPT,Datastore,FALSE,Relational database for our backend services.
+SQLite,ADOPT,Datastore,FALSE,"SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
+PHP,ADOPT,Languages and Frameworks,FALSE,PHP is one of our main programming languages for the backend.
+Laravel,ADOPT,Languages and Frameworks,FALSE,Laravel is the PHP framework that we use.
+TypeScript,ADOPT,Languages and Frameworks,FALSE,"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+NestJS,ADOPT,Languages and Frameworks,FALSE,"NestJS is a framework for building efficient, scalable Node.js web applications."
+Laravel Telescope,ADOPT,Library,FALSE,"Telescope provides insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more."
+Laravel Passport,ADOPT,Library,FALSE,Laravel Passport provides a full OAuth2 server implementation for your Laravel application in a matter of minutes.
+Laravel Debugbar,ADOPT,Library,FALSE,Debugbar for Laravel (Integrates PHP Debug Bar).
+Laravel yajra/laravel-datatables,ADOPT,Library,FALSE,jQuery DataTables API for Laravel.
+Laravel spatie/laravel-permission,ADOPT,Library,FALSE,This package allows you to manage user permissions and roles in a database.
+Laravel sammyjo20/saloon,ASSESS,Library,TRUE,Build beautiful API integrations and SDKs with Saloon 🤠.
+Prisma ORM,ADOPT,Library,FALSE,Prisma is a next-generation ORM that helps developers build faster and make fewer errors.
