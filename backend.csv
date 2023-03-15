@@ -24,3 +24,4 @@ Laravel yajra/laravel-datatables,ADOPT,Library,FALSE,jQuery DataTables API for L
 Laravel spatie/laravel-permission,ADOPT,Library,FALSE,This package allows you to manage user permissions and roles in a database.
 Laravel sammyjo20/saloon,ASSESS,Library,TRUE,Build beautiful API integrations and SDKs with Saloon 🤠.
 Prisma ORM,ADOPT,Library,FALSE,Prisma is a next-generation ORM that helps developers build faster and make fewer errors.
+Ansible,ASSESS,Tool & Platform,TRUE,Ansible delivers simple IT automation that ends repetitive tasks and frees up DevOps teams for more strategic work.
