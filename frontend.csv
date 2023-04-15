@@ -17,4 +17,8 @@ Webpack,ADOPT,Tools,FALSE,Popular packager. A simple configurable packager that'
 Lighthouse,ADOPT,Tools,FALSE,"Web benchmarker. The output is performance reports along with SEO, accessibility, best practices and PWA scores. It's official web benchmarker from Google."
 web.dev - Web Core Vitals,ADOPT,Techniques & Platforms,FALSE,Measurement standard for web. Go to web.dev for more info.
 MDN Web Docs,ADOPT,Techniques & Platforms,FALSE,MDN Web Docs
+Java,ADOPT,Languages & Frameworks,FALSE,Java
+Kotlin,ADOPT,Languages & Frameworks,FALSE,Kotlin
+Dart,ADOPT,Languages & Frameworks,FALSE,Dart
+Swift,ASSESS,Languages & Frameworks,FALSE,Swift
 Flutter,ADOPT,Languages & Frameworks,FALSE,Flutter
