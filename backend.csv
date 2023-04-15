@@ -2,10 +2,6 @@ name,ring,quadrant,isNew,description
 PostgresSQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
 Redis,ADOPT,Datastore,FALSE,In memory datastore for our backend services.
 Kafka,ASSESS ,Datastore,FALSE,A distributed event store and stream-processing platform for our backend services.
-Java 11,ADOPT,Languages & Frameworks,FALSE,Java 11 is one of our main programming language for backend.
-Kotlin,ADOPT,Languages & Frameworks,FALSE,A modern programming language that makes developers happier.
-Java 8,ADOPT,Languages & Frameworks,FALSE,Java 8 is one of our main programming language for backend.
-RxJava,ADOPT,Library,FALSE,"For new project, please use Project Reactor."
 Docker,ADOPT,Tool & Platform,FALSE,We build our backend application as Docker image.
 Jenkins,ADOPT,Tool & Platform,FALSE,Jenkins is our main automation server for CI/CD.
 MySQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
@@ -27,5 +23,7 @@ Ansible,ASSESS,Tool & Platform,TRUE,Ansible delivers simple IT automation that e
 SQL,ADOPT,Languages & Frameworks,FALSE,SQL
 C#,ADOPT,Languages & Frameworks,FALSE,C#
 Bash/Shell,ADOPT,Languages & Frameworks,FALSE,Bash/Shell
+Java,ASSESS,Languages & Frameworks,FALSE,Java
+Kotlin,ASSESS,Languages & Frameworks,FALSE,Kotlin
 Go,ASSESS,Languages & Frameworks,FALSE,Go
 Rust,ASSESS,Languages & Frameworks,FALSE,Rust
