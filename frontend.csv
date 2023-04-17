@@ -15,8 +15,8 @@ PNPM,ASSESS,Tools,FALSE,"New kid on the block package manager. The package downl
 NPM,ADOPT,Tools,FALSE,"Defacto package manager. We will use it as default package manager for Frontend projects."
 Webpack,ADOPT,Tools,FALSE,"Popular packager. A simple configurable packager that's still used widely. In the future we may all move to Rollup."
 Lighthouse,ADOPT,Tools,FALSE,"Web benchmarker. The output is performance reports along with SEO, accessibility, best practices and PWA scores. It's official web benchmarker from Google."
-web.dev - Web Core Vitals,ADOPT,Tools,FALSE,"Measurement standard for web. Go to web.dev for more info."
-MDN Web Docs,ADOPT,Tools,FALSE,MDN Web Docs
+web.dev - Web Core Vitals,ADOPT,Techniques & Platforms,FALSE,"Measurement standard for web. Go to web.dev for more info."
+MDN Web Docs,ADOPT,Techniques & Platforms,FALSE,MDN Web Docs
 Java,ADOPT,Languages & Frameworks,FALSE,"Java"
 Retrofit,ADOPT,Libraries,FALSE,"Retrofit"
 RxJava,ADOPT,Libraries,FALSE,"RxJava"
