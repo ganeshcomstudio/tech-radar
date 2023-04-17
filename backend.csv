@@ -2,21 +2,16 @@ name,ring,quadrant,isNew,description
 PostgresSQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
 Redis,ADOPT,Datastore,FALSE,In memory datastore for our backend services.
 Kafka,ASSESS ,Datastore,FALSE,A distributed event store and stream-processing platform for our backend services.
-Java 11,ADOPT,Languages and Frameworks,FALSE,Java 11 is one of our main programming language for backend.
-Kotlin,ADOPT,Languages and Frameworks,FALSE,A modern programming language that makes developers happier.
-Java 8,ADOPT,Languages and Frameworks,FALSE,Java 8 is one of our main programming language for backend.
-Gson,ADOPT,Library,FALSE,"We are not using Gson anymore, please use Jackson for JSON manipulation."
-RxJava,ADOPT,Library,FALSE,"For new project, please use Project Reactor."
 Docker,ADOPT,Tool & Platform,FALSE,We build our backend application as Docker image.
 Jenkins,ADOPT,Tool & Platform,FALSE,Jenkins is our main automation server for CI/CD.
 MySQL,ADOPT,Datastore,FALSE,Relational database for our backend services.
 SQL Server,ADOPT,Datastore,FALSE,Relational database for our backend services.
 MariaDB,ADOPT,Datastore,FALSE,Relational database for our backend services.
 SQLite,ADOPT,Datastore,FALSE,"SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
-PHP,ADOPT,Languages and Frameworks,FALSE,PHP is one of our main programming languages for the backend.
-Laravel,ADOPT,Languages and Frameworks,FALSE,Laravel is the PHP framework that we use.
-TypeScript,ADOPT,Languages and Frameworks,FALSE,"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
-NestJS,ADOPT,Languages and Frameworks,FALSE,"NestJS is a framework for building efficient, scalable Node.js web applications."
+PHP,ADOPT,Languages & Frameworks,FALSE,PHP is one of our main programming languages for the backend.
+Laravel,ADOPT,Languages & Frameworks,FALSE,Laravel is the PHP framework that we use.
+TypeScript,ADOPT,Languages & Frameworks,FALSE,"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+NestJS,ADOPT,Languages & Frameworks,FALSE,"NestJS is a framework for building efficient, scalable Node.js web applications."
 Laravel Telescope,ADOPT,Library,FALSE,"Telescope provides insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more."
 Laravel Passport,ADOPT,Library,FALSE,Laravel Passport provides a full OAuth2 server implementation for your Laravel application in a matter of minutes.
 Laravel Debugbar,ADOPT,Library,FALSE,Debugbar for Laravel (Integrates PHP Debug Bar).
@@ -25,3 +20,10 @@ Laravel spatie/laravel-permission,ADOPT,Library,FALSE,This package allows you to
 Laravel sammyjo20/saloon,ASSESS,Library,TRUE,Build beautiful API integrations and SDKs with Saloon 🤠.
 Prisma ORM,ADOPT,Library,FALSE,Prisma is a next-generation ORM that helps developers build faster and make fewer errors.
 Ansible,ASSESS,Tool & Platform,TRUE,Ansible delivers simple IT automation that ends repetitive tasks and frees up DevOps teams for more strategic work.
+SQL,ADOPT,Languages & Frameworks,FALSE,SQL
+C#,ADOPT,Languages & Frameworks,FALSE,C#
+Bash/Shell,ADOPT,Languages & Frameworks,FALSE,Bash/Shell
+Java,ASSESS,Languages & Frameworks,FALSE,Java
+Kotlin,ASSESS,Languages & Frameworks,FALSE,Kotlin
+Go,ASSESS,Languages & Frameworks,FALSE,Go
+Rust,ASSESS,Languages & Frameworks,FALSE,Rust
