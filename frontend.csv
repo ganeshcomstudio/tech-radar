@@ -5,7 +5,7 @@ TypeScript,ADOPT,Languages & Frameworks,FALSE,"TypeScript helps to abstract our 
 CSS 3,ADOPT,Languages & Frameworks,FALSE,"Defacto styling standard"
 JSON,ADOPT,Languages & Frameworks,FALSE,"Standard data structure"
 HTML 5,ADOPT,Languages & Frameworks,FALSE,"Defacto web styling standard"
-Node.js > 14,ADOPT,Languages & Frameworks,FALSE,"JS Engine, defacto"
+Node.js 14+,ADOPT,Languages & Frameworks,FALSE,"JS Engine, defacto"
 ESLint,ADOPT,Tools,FALSE,"Linter. It's used to provide quick style correction and applying good coding patterns."
 Next.js,ADOPT,Languages & Frameworks,FALSE,"Next.js is a React framework that gives you building blocks to create web applications."
 JQuery,ADOPT,Libraries,FALSE,"Old-school coding. This library is not used anymore. All functionalities in JQuery are available in ES6+ and native browser APIs"
