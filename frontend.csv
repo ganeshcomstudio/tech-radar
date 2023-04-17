@@ -1,28 +1,28 @@
 name,ring,quadrant,isNew,description
-React.js,ADOPT,Languages & Frameworks,FALSE,Popular JS library. We hold this library because it was hard to maintain in previous projects. Hard also to find someone capable of coding React properly
-JavaScript,ADOPT,Languages & Frameworks,FALSE,JavaScript is our main programming langauge for FrontEnd
-TypeScript,ADOPT,Languages & Frameworks,FALSE,TypeScript helps to abstract our development
-CSS 3,ADOPT,Languages & Frameworks,FALSE,Defacto styling standard
-JSON,ADOPT,Languages & Frameworks,FALSE,Standard data structure
-HTML 5,ADOPT,Languages & Frameworks,FALSE,Defacto web styling standard
+React.js,ADOPT,Languages & Frameworks,FALSE,"Popular JS library. We hold this library because it was hard to maintain in previous projects. Hard also to find someone capable of coding React properly"
+JavaScript,ADOPT,Languages & Frameworks,FALSE,"JavaScript is our main programming langauge for FrontEnd"
+TypeScript,ADOPT,Languages & Frameworks,FALSE,"TypeScript helps to abstract our development"
+CSS 3,ADOPT,Languages & Frameworks,FALSE,"Defacto styling standard"
+JSON,ADOPT,Languages & Frameworks,FALSE,"Standard data structure"
+HTML 5,ADOPT,Languages & Frameworks,FALSE,"Defacto web styling standard"
 Node.js > 14,ADOPT,Languages & Frameworks,FALSE,"JS Engine, defacto"
-ESLint,ADOPT,Tools,FALSE,Linter. It's used to provide quick style correction and applying good coding patterns.
-Next.js,ADOPT,Languages & Frameworks,FALSE,Next.js is a React framework that gives you building blocks to create web applications.
-JQuery,ADOPT,Libraries,FALSE,Old-school coding. This library is not used anymore. All functionalities in JQuery are available in ES6+ and native browser APIs
+ESLint,ADOPT,Tools,FALSE,"Linter. It's used to provide quick style correction and applying good coding patterns."
+Next.js,ADOPT,Languages & Frameworks,FALSE,"Next.js is a React framework that gives you building blocks to create web applications."
+JQuery,ADOPT,Libraries,FALSE,"Old-school coding. This library is not used anymore. All functionalities in JQuery are available in ES6+ and native browser APIs"
 Axios,ADOPT,Libraries,FALSE,"AJAX library helper, should be replaced with built-in window.fetch function or use polyfill for it"
-Yarn,ADOPT,Tools,FALSE,Popular package manager. We are not recommending using it because it has deviated quite much from the official package manager (NPM)
+Yarn,ADOPT,Tools,FALSE,"Popular package manager. We are not recommending using it because it has deviated quite much from the official package manager (NPM)"
 PNPM,ASSESS,Tools,FALSE,"New kid on the block package manager. The package download and installation process are done in parallel, increasing installation speed."
-NPM,ADOPT,Tools,FALSE,Defacto package manager. We will use it as default package manager for Frontend projects.
-Webpack,ADOPT,Tools,FALSE,Popular packager. A simple configurable packager that's still used widely. In the future we may all move to Rollup.
+NPM,ADOPT,Tools,FALSE,"Defacto package manager. We will use it as default package manager for Frontend projects."
+Webpack,ADOPT,Tools,FALSE,"Popular packager. A simple configurable packager that's still used widely. In the future we may all move to Rollup."
 Lighthouse,ADOPT,Tools,FALSE,"Web benchmarker. The output is performance reports along with SEO, accessibility, best practices and PWA scores. It's official web benchmarker from Google."
-web.dev - Web Core Vitals,ADOPT,Techniques & Platforms,FALSE,Measurement standard for web. Go to web.dev for more info.
+web.dev - Web Core Vitals,ADOPT,Techniques & Platforms,FALSE,"Measurement standard for web. Go to web.dev for more info."
 MDN Web Docs,ADOPT,Techniques & Platforms,FALSE,MDN Web Docs
-Java,ADOPT,Languages & Frameworks,FALSE,Java
-Retrofit,ADOPT,Library,FALSE,Retrofit
-RxJava,ADOPT,Library,FALSE,RxJava
-Moshi,ADOPT,Library,FALSE,Moshi
-LeakCanary,ADOPT,Library,FALSE,LeakCanary
-Kotlin,ADOPT,Languages & Frameworks,FALSE,Kotlin
-Dart,ADOPT,Languages & Frameworks,FALSE,Dart
-Swift,ASSESS,Languages & Frameworks,FALSE,Swift
-Flutter,ADOPT,Languages & Frameworks,FALSE,Flutter
+Java,ADOPT,Languages & Frameworks,FALSE,"Java"
+Retrofit,ADOPT,Library,FALSE,"Retrofit"
+RxJava,ADOPT,Library,FALSE,"RxJava"
+Moshi,ADOPT,Library,FALSE,"Moshi"
+LeakCanary,ADOPT,Library,FALSE,"LeakCanary"
+Kotlin,ADOPT,Languages & Frameworks,FALSE,"Kotlin"
+Dart,ADOPT,Languages & Frameworks,FALSE,"Dart"
+Swift,ASSESS,Languages & Frameworks,FALSE,"Swift"
+Flutter,ADOPT,Languages & Frameworks,FALSE,"Flutter"
